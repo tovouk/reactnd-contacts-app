@@ -15,7 +15,7 @@ function ListContacts(props){
                         <p>{contact.handle}</p>
                     </div>
                     <button className="contact-remove" onClick={()=> props.onDelete(contact)}>
-                        <img src="./icons/cancel.svg" alt="delete contact"></img>
+                        
                     </button>
                 </li>
             ))}
